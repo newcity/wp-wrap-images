@@ -53,4 +53,4 @@ This plugin is provided without warranty or formal support. To ask questions of 
 to geeks@insidenewcity.com.
 
 Please submit bugs, patches, and feature requests to  
-https://github.com/newcity/wp-wrap-images)
+https://github.com/newcity/wp-wrap-images

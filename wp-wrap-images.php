@@ -1,6 +1,6 @@
 <?php
 /**
- * WP Wrap Images
+ * Wrap WYWIWYG Images
  *
  *
  * @since             0.1.0

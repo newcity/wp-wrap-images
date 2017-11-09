@@ -1,9 +1,20 @@
-# WP Wrap Images
+# Wrap WYSIWYG Images
+
+## Description
 
 Wraps all images inserted into a WYSIWYG field from the Add Media interface with a
 `<figure>` element, even if no caption is assigned to the image. Compatible with the standard
 Wordpress tinyMCE editor and the [Advanced Custom Fields](https://www.advancedcustomfields.com/)
 WYSIWYG field type.
+
+## Installation Instructions
+To install this plugin manually:
+1. Download the plugin .zip file
+2. Unzip
+3. Copy the Wrap WYSIWYG Images directory to your /wp-content/plugins directory
+4. Go to the plugin management page and activate the plugin
+
+This plugin has no settings to configure -- once it is activated, it starts doing it's work immediately.
 
 ## Why this plugin exists
 
@@ -31,8 +42,15 @@ before the page is built. It also replaces Wordpress' default caption shortcode 
 modified version that does not ignore captionless images. The result is that uncaptioned images receive
 exactly the same markup wrappers as captioned images, but without the `<figcaption>` element.
 
-## Caveats
+## Possible conflicts
 This plugin adds its replacement `[caption]` filter to `img_caption_shortcode`, and will conflict with any custom
 caption shortcode you may have already assigned via `img_caption_shortcode`. This plugin's filter is assigned with
 a priority of `10`, so if you want to use this plugin in combination with a different caption override filter you should
 assign the other filter a priority value greater than `10`.
+
+## Support
+This plugin is provided without warranty or formal support. To ask questions of the developer, send an email
+to geeks@insidenewcity.com.
+
+Please submit bugs, patches, and feature requests to  
+https://github.com/newcity/wp-wrap-images)

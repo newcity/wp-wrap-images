@@ -52,7 +52,7 @@ class WPWrapImages {
 		
 		$content = preg_replace( $br_remover_pattern, $br_remover_replacement, $content );
 
-		$img_pattern = '/[^\]](<img.+?class="([^"]*)"[^<]+?width="([^"]*)"[^<]+?>)/i';
+		$img_pattern = '/(?<!\])(<img.+?class="([^"]*)"[^<]+?width="([^"]*)"[^<]+?>)/i';
 
 		$content = preg_replace_callback( $img_pattern, array( $this, 'shift_align_class' ), $content );
 

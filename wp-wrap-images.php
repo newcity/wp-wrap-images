@@ -10,7 +10,7 @@
  * Plugin Name:       WP Wrap Images
  * Description:       Wrap all images inserted into the WYSIWYG in a figure tag,
  *                    even if no caption is present
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            NewCity  <geeks@insidenewcity.com>
  * Author URI:        http://insidenewcity.com
  * License:           GPL-2.0
